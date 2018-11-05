@@ -53,7 +53,7 @@ public class Receiver implements Runnable {
 
 	public static void main(final String[] args) {
 		// Receiver
-		Receiver receiver = new Receiver(2048);
+		Receiver receiver = new Receiver(2049);
 		Thread receiverThread = new Thread(receiver, "Receiver");
 		receiverThread.start();
 	}
